@@ -15,9 +15,13 @@ final class NpmAssetProvider
     {
         return [
             ['Css', Asset\FlowbiteDevAsset::class],
+            ['Css', Asset\FlowbiteDarkDevAsset::class],
             ['Js', Asset\FlowbiteDevAsset::class],
-            ['Css', Asset\FlowbiteMinAsset::class],
-            ['Js', Asset\FlowbiteMinAsset::class],
+            ['Js', Asset\FlowbiteDarkDevAsset::class],
+            ['Css', Asset\FlowbiteProdAsset::class],
+            ['Css', Asset\FlowbiteDarkProdAsset::class],
+            ['Js', Asset\FlowbiteProdAsset::class],
+            ['Js', Asset\FlowbiteDarkProdAsset::class],
         ];
     }
 }
