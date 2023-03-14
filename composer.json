@@ -1,5 +1,5 @@
 {
-    "name": "yii-tools/flowbyte-asset",
+    "name": "yii-tools/flowbite-asset",
     "type": "library",
     "description": "Asset for components on top of Tailwind CSS",
     "keywords": [
