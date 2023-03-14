@@ -1,0 +1,8 @@
+{
+    "name": "flowbite-asset",
+    "version": "1.0.0",
+    "dependencies": {
+        "flowbite": "^1.6.4"
+    },
+    "license": "mit"
+}

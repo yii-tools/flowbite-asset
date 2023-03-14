@@ -2,58 +2,40 @@
     <a href="https://github.com/yii-tools/template" target="_blank">
         <img src="https://avatars.githubusercontent.com/u/121752654?s=200&v=4" height="100px">
     </a>
-    <h1 align="center">Template.</h1>
+    <h1 align="center">Asset for Flowbite for YiiFramework v. 3.0.</h1>
     <br>
 </p>
 
+## Requirements
+
+The minimun version of PHP required by this package is PHP 8.1.
+
+For install this package, you need [composer](https://getcomposer.org/) and [npm](https://www.npmjs.com/).
+
 ## Install
 
-For use create a new repository from this template. For more information see [Creating a repository from a template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
-
-Also you can git clone this repository. For more information see [Cloning a repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
-
-## Checking dependencies
-
-This package uses [composer-require-checker](https://github.com/maglnet/ComposerRequireChecker) to check if all dependencies are correctly defined in `composer.json`.
-
-To run the checker, execute the following command:
+Preferably install with composer:
 
 ```shell
-composer run check-dependencies
+composer require yii-tools/flowbite-asset
 ```
 
-## Mutation testing
+## Usage
 
-Mutation testing is checked with [Infection](https://infection.github.io/). To run it:
-
-```shell
-composer run mutation
-```
-
-## Static analysis
-
-The code is statically analyzed with [Psalm](https://psalm.dev/). To run static analysis:
-
-```shell
-composer run psalm
-```
+[Check the documentation docs](/docs/install.md) to learn about usage.
 
 ## Testing
 
-The code is tested with [PHPUnit](https://phpunit.de/). To run tests:
-
-```
-composer run test
-```
+[Check the documentation testing](/docs/testing.md) to learn about testing. 
 
 ## CI status
 
-[![build](https://github.com/yii-tools/template/actions/workflows/build.yml/badge.svg)](https://github.com/yii-tools/template/actions/workflows/build.yml)
-[![codecov](https://codecov.io/gh/yii-tools/template/branch/main/graph/badge.svg?token=MF0XUGVLYC)](https://codecov.io/gh/yii-tools/template)
-[![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fyii-tools%2Ftemplate%2Fmain)](https://dashboard.stryker-mutator.io/reports/github.com/yii-tools/template/main)
-[![static analysis](https://github.com/yii-tools/template/actions/workflows/static.yml/badge.svg)](https://github.com/yii-tools/template/actions/workflows/static.yml)
-[![type-coverage](https://shepherd.dev/github/yii-tools/template/coverage.svg)](https://shepherd.dev/github/yii-tools/template)
-[![StyleCI](https://github.styleci.io/repos/494495136/shield?branch=main)](https://github.styleci.io/repos/494495136?branch=main)
+[![build](https://github.com/yii-tools/flowbite-asset/actions/workflows/build.yml/badge.svg)](https://github.com/yii-tools/flowbite-asset/actions/workflows/build.yml)
+[![codecov](https://codecov.io/gh/yii-tools/flowbite-asset/branch/main/graph/badge.svg?token=MF0XUGVLYC)](https://codecov.io/gh/yii-tools/flowbite-asset)
+[![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fyii-tools%2Fflowbite-asset%2Fmain)](https://dashboard.stryker-mutator.io/reports/github.com/yii-tools/flowbite-asset/main)
+[![static analysis](https://github.com/yii-tools/flowbite-asset/actions/workflows/static.yml/badge.svg)](https://github.com/yii-tools/flowbite-asset/actions/workflows/static.yml)
+[![type-coverage](https://shepherd.dev/github/yii-tools/flowbite-asset/coverage.svg)](https://shepherd.dev/github/yii-tools/flowbite-asset)
+[![StyleCI](https://github.styleci.io/repos/595526111/shield?branch=main)](https://github.styleci.io/repos/595526111?branch=main)
 
 ## License
 
