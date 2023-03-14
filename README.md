@@ -1,6 +1,7 @@
 <p align="center">
     <a href="https://github.com/yii-tools/template" target="_blank">
         <img src="https://avatars.githubusercontent.com/u/121752654?s=200&v=4" height="100px">
+        <img src="https://flowbite.com/docs/images/logo.svg" height="100px">
     </a>
     <h1 align="center">Asset for Flowbite for YiiFramework v. 3.0.</h1>
     <br>
