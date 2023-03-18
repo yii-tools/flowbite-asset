@@ -14,14 +14,16 @@ final class NpmAssetProvider
     public static function assetBundles(): array
     {
         return [
-            ['Css', Asset\FlowbiteDevAsset::class],
             ['Css', Asset\FlowbiteDarkDevAsset::class],
-            ['Js', Asset\FlowbiteDevAsset::class],
-            ['Js', Asset\FlowbiteDarkDevAsset::class],
-            ['Css', Asset\FlowbiteProdAsset::class],
             ['Css', Asset\FlowbiteDarkProdAsset::class],
-            ['Js', Asset\FlowbiteProdAsset::class],
+            ['Css', Asset\FlowbiteDevAsset::class],
+            ['Css', Asset\FlowbiteProdAsset::class],
+            ['Js', Asset\FlowbiteDarkDevAsset::class],
             ['Js', Asset\FlowbiteDarkProdAsset::class],
+            ['Js', Asset\FlowbiteDevAsset::class],
+            ['Js', Asset\FlowbiteJsDevAsset::class],
+            ['Js', Asset\FlowbiteJsProdAsset::class],
+            ['Js', Asset\FlowbiteProdAsset::class],
         ];
     }
 }
