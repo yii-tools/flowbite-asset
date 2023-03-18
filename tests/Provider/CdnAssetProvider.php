@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Yii\Flowbite\Asset\Tests\Provider;
 
-use Yii\Flowbite\Asset\FlowbiteCdnAsset;
+use Yii\Flowbite\Asset;
 
 final class CdnAssetProvider
 {
@@ -14,7 +14,9 @@ final class CdnAssetProvider
     public static function assetBundles(): array
     {
         return [
-            ['Css', FlowbiteCdnAsset::class],
+            ['Css', Asset\FlowbiteCdnAsset::class],
+            ['Js', Asset\FlowbiteCdnAsset::class],
+            ['Js', Asset\FlowbiteJsCdnAsset::class],
         ];
     }
 }
