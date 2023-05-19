@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Yii\Flowbite\Asset;
+namespace Yii\Assets;
 
 use Yiisoft\Assets\AssetBundle;
 use Yiisoft\Files\PathMatcher\PathMatcher;
 
-final class FlowbiteJsProdAsset extends AssetBundle
+final class FlowbiteJsProd extends AssetBundle
 {
     public string|null $basePath = '@assets';
     public string|null $baseUrl = '@assetsUrl';

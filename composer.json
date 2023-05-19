@@ -14,30 +14,26 @@
     "require": {
         "php": "^8.1",
         "foxy/foxy": "^1.2",
-        "yii-tools/tailwind-asset": "^1.0@dev",
+        "yii-tools/tailwind-asset": "^1.0",
         "yiisoft/assets": "^4.0",
         "yiisoft/files": "^2.0"
     },
     "require-dev": {
+        "infection/infection": "^0.27",
         "maglnet/composer-require-checker": "^4.3",
-        "phpunit/phpunit": "^10.0",
-        "roave/infection-static-analysis-plugin": "^1.28",
+        "phpunit/phpunit": "^10.1",
+        "roave/infection-static-analysis-plugin": "^1.31",
         "vimeo/psalm": "^5.8",
         "yii-tools/support": "^1.0@dev"
     },
     "autoload": {
         "psr-4": {
-            "Yii\\Flowbite\\Asset\\": "src"
+            "Yii\\Assets\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Yii\\Flowbite\\Asset\\Tests\\": "tests"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-main": "1.0.x-dev"
+            "Yii\\Assets\\Tests\\": "tests"
         }
     },
     "config": {
