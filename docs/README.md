@@ -1,4 +1,4 @@
-## Using assets
+# Using assets
 
 Assets are files that are not processed by Webpack. They are copied directly to the output folder. This includes images, fonts, and any other files that you want to use in your project.
 
@@ -56,4 +56,3 @@ return [
 
 You can install [npm](https://www.npmjs.com/) packages [fxpio/foxy](https://github.com/fxpio/foxy),
 and they will be available in the `node_modules` directory.
-
