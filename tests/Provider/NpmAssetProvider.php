@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Yii\Flowbite\Asset\Tests\Provider;
+namespace Yii\Assets\Tests\Provider;
 
-use Yii\Flowbite\Asset;
+use Yii\Assets;
 
 final class NpmAssetProvider
 {
@@ -14,16 +14,12 @@ final class NpmAssetProvider
     public static function assetBundles(): array
     {
         return [
-            ['Css', Asset\FlowbiteDarkDevAsset::class],
-            ['Css', Asset\FlowbiteDarkProdAsset::class],
-            ['Css', Asset\FlowbiteDevAsset::class],
-            ['Css', Asset\FlowbiteProdAsset::class],
-            ['Js', Asset\FlowbiteDarkDevAsset::class],
-            ['Js', Asset\FlowbiteDarkProdAsset::class],
-            ['Js', Asset\FlowbiteDevAsset::class],
-            ['Js', Asset\FlowbiteJsDevAsset::class],
-            ['Js', Asset\FlowbiteJsProdAsset::class],
-            ['Js', Asset\FlowbiteProdAsset::class],
+            ['Css', Assets\FlowbiteDev::class],
+            ['Css', Assets\FlowbiteProd::class],
+            ['Js', Assets\FlowbiteDev::class],
+            ['Js', Assets\FlowbiteJsDev::class],
+            ['Js', Assets\FlowbiteJsProd::class],
+            ['Js', Assets\FlowbiteProd::class],
         ];
     }
 }
