@@ -11,6 +11,7 @@ on:
       - 'psalm.xml'
 
   push:
+    branches: ['main']
     paths-ignore:
       - 'docs/**'
       - 'README.md'
@@ -25,8 +26,9 @@ name: dependency-check
 
 jobs:
   composer-require-checker:
-    uses: yiisoft/actions/.github/workflows/composer-require-checker.yml@master
+    uses: php-forge/actions/.github/workflows/composer-require-checker.yml@main
     with:
+      composer-version: 2.5.8
       os: >-
         ['ubuntu-latest']
       php: >-
